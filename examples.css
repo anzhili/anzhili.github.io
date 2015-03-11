@@ -58,11 +58,19 @@ q:before,q:after {
 abbr,acronym { border: 0;
 }
 
+body, html {
+	max-height: 100%; 
+    max-width: 100%; 
+    height: auto;
+}
+
 /* Custom CSS
  * --------------------------------------- */
+
 body{
-	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-family: "Times New Roman", Times, serif;
 	color: #f2f2f2;
+	font-size: 20px;
 }
 h1{
 	font-size: 6em;
@@ -260,21 +268,21 @@ p{
 	}
 
     #section1 p{
-		font-size: 20px;
+		font-size: 22px;
 		font-family: "Times New Roman", Times, serif;
 	    font-weight: normal;
 		color: white;
 		opacity: 0.7;
-		margin-top: -40px;
+		margin-top: -80px;
 		margin-left: 50px;
-		margin-right: 400px;
+		margin-right: 450px;
 	}
 
     #section1 img {
         position: relative;
         float:right;
         right: -200px;
-        top: -100px;
+        top: -80px;
         height: 250px;
         width: 250px;
         opacity: 0.8;
@@ -285,7 +293,7 @@ p{
 	    float:right;
 	    font-size: 18px;
 	    margin-right: 40px;
-	    margin-top: 200px;
+	    margin-top: 220px;
 	    opacity:1;
     }
 
@@ -300,8 +308,23 @@ p{
 		color: white;
 		opacity: 0.6;
 		margin-right: 20px;
-		margin-top: -50px;
+		margin-top: -80px;
 	}
+
+    #section2 a{
+	    color: #F2F5A9;
+	    float:left;
+	    font-family: "Times New Roman", Times, serif;
+	    text-decoration: underline;
+	    font-size: 18px;
+	    margin-top: -25px;
+	    margin-left: 50px;
+	    opacity:0.7;
+    }
+
+	#section2 p{
+	   margin-top: 80px;
+    }
 
     #section2 h2{
 	    color: #fff;
@@ -311,7 +334,7 @@ p{
 	    font-style: italic;
 	    font-weight: bold;
 	    text-decoration: underline;
-	    margin-left: 40px;
+	    margin-left: 50px;
 	    opacity: 0.7;
     }
 
@@ -321,8 +344,8 @@ p{
 	    font-size: 18px;
 	    font-family: "Times New Roman", Times, serif;
 	    margin-top: 0px;
-	    margin-left: 40px;
-	    margin-right: 400px;
+	    margin-left: 50px;
+	    margin-right: 350px;
 	    opacity: 0.7;
     }
 
@@ -330,19 +353,10 @@ p{
         position: relative;
         float:right;
         right: 20px;
-        top:50px;
+        top:20px;
         height: 250px;
         width: 250px;
         opacity: 0.8;
-    }
-
-    #links a{
-	    color: #E6E6E6;
-	    float:right;
-	    font-size: 18px;
-	    margin-right: 40px;
-	    margin-top: 200px;
-	    opacity:1;
     }
 
 /* Section 3
@@ -366,7 +380,7 @@ p{
 	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
 	font-weight: bold;
-	margin-top: -150px;
+	margin-top: -140px;
 	margin-left: 40px;
 	opacity: 0.7;
 }
@@ -377,7 +391,7 @@ p{
 	font-size: 22px;
 	font-family: "Times New Roman", Times, serif;
 	margin-top: 0px;
-	margin-left: 40px;
+	margin-left: 50px;
 	opacity: 0.7;
 }
 
@@ -385,7 +399,7 @@ p{
 position: relative;
 float:right;
 right: 20px;
-top:-20px;
+top:-10px;
 height: 250px;
 width: 250px;
 opacity: 0.8;
@@ -402,31 +416,50 @@ opacity: 0.8;
 	font-family: "Times New Roman", Times, serif;
 	font-weight: bold;
 	padding: 30px;
-    margin-top: -205px;
+    margin-top: -130px;
     opacity: 0.6;
 }
 
-    #section4 p{
-        text-align: left;
-		font-size: 20px;
-		font-family: "Times New Roman", Times, serif;
-	    font-weight: normal;
-		color: white;
-		opacity: 0.7;
-		margin-top: 0px;
-		margin-left: 50px;
-		margin-right: 400px;
-	}
+	#section4 ul{
+	color: #E6E6E6;
+	text-align: left;
+	font-size: 22px;
+	font-family: "Times New Roman", Times, serif;
+	margin-top: -20px;
+	margin-left: 40px;
+	margin-right: 100px;
+	opacity: 0.7;
+    }
+
+    #section4 a{
+	color: #F2F5A9;
+	text-align: left;
+	font-size: 22px;
+	font-family: "Times New Roman", Times, serif;
+	margin-top: 0px;
+	opacity: 1;
+    }
+
+    #section4 h2{
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
+	font-family: "Times New Roman", Times, serif;
+	margin-top: 0px;
+	margin-left: 50px;
+	margin-right: 400px;
+	opacity: 0.7;
+    }
 
     #section4 img {
         position: relative;
         float:right;
         right: 20px;
-        top: -80px;
+        top: 5px;
         height: 250px;
         width: 250px;
         opacity: 0.8;
-    }	
+    }
 
 /* Overwriting fullPage.js tooltip color
 * --------------------------------------- */
